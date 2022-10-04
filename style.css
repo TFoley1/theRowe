@@ -1,0 +1,46 @@
+#logo {
+  margin-left: 15px;
+  margin-top: 7px;
+  height: 45px;
+  transition: .5s ease;
+}
+
+#logo:hover {
+  background-color: #81d4fa ;
+}
+
+img {
+  border: solid #eeeeee;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #e8eaf6 ;
+  font-family: Overpass, Arial, Helvetica, sans-serif;
+  
+}
+
+li {
+  color: #333333;
+}
+
+nav {
+  width: max;
+  margin: none;
+}
+
+.nav-wrapper {
+  color: #000000;
+}
+
+#nav-option {
+  margin-right: 15px;
+}
+
+#title {
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: -2px 0 #4fc3f7, 0 2px #4fc3f7, 2px 0 #4fc3f7, 0 -2px #4fc3f7;
+}
+
+
