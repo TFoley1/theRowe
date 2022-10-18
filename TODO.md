@@ -15,6 +15,11 @@
 
 ---
 
-Add things idk
+#TO FIX 🛠
+
+- Every image on the github side of the site is either broken or somehow bypassing the css rules
+- Custom Font may or may not be working??
+- Experimental dropdown was working.. not anymore...
+
 
 
