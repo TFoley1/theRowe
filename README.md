@@ -13,7 +13,7 @@ This is meant for..
 
 ## What's in this project?
 
-
+Kind of a simple and messy website (probably going to devolve into spaghetti code). It could definetly be more organized and optimized. It works for now though.
 
 Uses:
 - Html 5
