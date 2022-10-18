@@ -1,6 +1,6 @@
 # This is my personal website
 
-> I made (and am still making) this website for fun. It's something I've always wanted to do. The motivation behind it is that I need to spend 20 hours working on something for my capstone project to graduate highschool. This website is the perfect opportunity to do exactly that and have some fun.
+> I made (and am still making) this website for fun. It's something I've always wanted to do. I'm using the online IDE [Glitch.com](https://glitch.com) to create this project and github to host the code and website. The motivation behind it is that I need to spend 20 hours working on something for my capstone project to graduate highschool. This website is the perfect opportunity to do exactly that and have some fun.
 
 ### Be sure to check out the [ToDo List](https://github.com/TFoley1/theRowe/blob/main/TODO.md) and [Notes](https://github.com/TFoley1/theRowe/blob/main/NOTES.md) pages if you plan on contributing :D
 
