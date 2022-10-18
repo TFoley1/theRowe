@@ -2,21 +2,28 @@
 <html lang="en">
   <head>
     <title>The Rowe</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- The icon for the website -->
-    <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/799d27c2ebe5455feeaf806f12869a2c.png?v=1664913088735">
-    
-    <link href="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/Overpass-VariableFont_wght.ttf?v=1664919661643" rel="stylesheet">
-    
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/SonicLogo.jpeg?v=1664990877618"
+    />
+
+    <link
+      href="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/Overpass-VariableFont_wght.ttf?v=1664919661643"
+      rel="stylesheet"
+    />
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
-    
+
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -37,41 +44,170 @@
       href="css/materialize.min.css"
       media="screen,projection"
     />
-    
+
     <!-- Google Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-  </head>  
+  </head>
   <body>
     <div class="containter">
-      
+      <!-- dropdown bar-->
+      <ul id="dropdown1" class="dropdown-content">
+        <li class="hide-on-med-and-down">
+          <a href="contact.html"
+            >Contact<span class="new badge light-blue darken-2"></span
+          ></a>
+        </li>
+        <li class="hide-on-med-and-down">
+          <a href="content.html">Content</a>
+        </li>
+      </ul>
+
       <!-- nav bar -->
-      <nav>
-        <div class="nav-wrapper indigo lighten-1">
-          <a href="index.html" class="logo"> <img class="responsive-img" id="logo" src="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/799d27c2ebe5455feeaf806f12869a2c.png?v=1664913088735" alt="Logo"></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="contact.html">Contact<span class="new badge light-blue darken-2"></span></a></li>
-            <li id="nav-option"><a href="content.html">Content</a></li>
+      <nav class="navbar">
+        <div class="col s12 nav-wrapper indigo lighten-1">
+          <a href="index.html" class="logo">
+            <img
+              class="responsive-img"
+              id="logo"
+              src="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/SonicLogo.jpeg?v=1664990877618"
+              alt="Logo"
+          /></a>
+          <ul class="right">
+            <!-- used: class="hide-on-med-and-down" -->
+            <li class="hide-on-med-and-down">
+              <a href="contact.html"
+                >Contact<span class="new badge light-blue darken-2"></span
+              ></a>
+            </li>
+            <li class="hide-on-med-and-down">
+              <a href="content.html">Content</a>
+            </li>
+            <li class="show-on-small">
+              <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+                <i class="material-icons right">arrow_drop_down</i></a
+              >
+            </li>
           </ul>
         </div>
       </nav>
-      
+
+      <div class="row">
+        <!-- title-->
+        <div class="col l12 m12 s12">
+          <div class="center-align">
+            <h2 id="title" class="flow-text ">The Rowe</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col xl8 l8 m6 s12 left-align">
+          <div class="z-depth-2 center-align sortOfCards">
+            <h3 id="p-1" class="flow-text">What is The Rowe?</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+
+        <div class="col xl4 l4 m6 s12 right-align">
+          <div class="center-align">
+            <img
+              src="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/confuzzled%20sonic.png?v=1665008942015"
+              title="img1"
+              class="z-depth-3"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col xl4 l4 m6 s12 left-align myRowes">
+          <div class="center-align">
+            <img
+              src="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/Twin%20Galaxies-5120x2880.png?v=1665009314888"
+              title="img"
+              class="z-depth-2 hide-on-small-only"
+            />
+          </div>
+        </div>
+
+        <div class="col xl8 l8 m6 s12 right-align myRowes">
+          <div class="z-depth-3 center-align sortOfCards">
+            <h3 id="p-2" class="flow-text">Why?</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+
+        <div class="col xl4 l4 m6 s12 left-align myRowes">
+          <div class="center-align">
+            <img
+              src="https://cdn.glitch.global/d8085d06-8dd5-4607-b193-0dc7c3bebfe3/Twin%20Galaxies-5120x2880.png?v=1665009314888"
+              title="img"
+              class="z-depth-3 show-on-small-only hide-on-med-and-up"
+            />
+          </div>
+        </div>
+      </div>
+      <!--
       <div class="row">
         
-        <!-- title-->
-        <div class=" col l12 m12 s12">
-          <div class="center-align">
-          <h2 id="title" class=" flow-text">
-            The Rowe
-          </h2>
-          
-          </div>
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+          </a>
+          <ul>
+            <li>
+              <a class="btn-floating red"
+                ><i class="material-icons">insert_chart</i></a
+              >
+            </li>
+            <li>
+              <a class="btn-floating yellow darken-1"
+                ><i class="material-icons">format_quote</i></a
+              >
+            </li>
+            <li>
+              <a class="btn-floating green"
+                ><i class="material-icons">publish</i></a
+              >
+            </li>
+            <li>
+              <a class="btn-floating blue"
+                ><i class="material-icons">attach_file</i></a
+              >
+            </li>
+          </ul>
         </div>
         
       </div>
+      -->
       
       
     </div>
