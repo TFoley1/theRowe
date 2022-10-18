@@ -1,7 +1,7 @@
 //global variables
 
 //materialize stuff
-
+ M.AutoInit();
 
 
 // dropdown
