@@ -7,7 +7,7 @@
 // dropdown
 document.addEventListener('DOMContentLoaded', function() {
     var drop =document.querySelectorAll('.dropdown-trigger');
-    M.Dropdown.init(drop),{coverTrigger:false, closeOnClick:false}
+    M.Dropdown.init(drop),{coverTrigger:true, closeOnClick:true}
   });
 
 //floating action button
@@ -17,4 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //   var instances = M.FloatingActionButton.init(elems, options);
 //  });
 
+
+//tests
+console.log("This is a test")
 

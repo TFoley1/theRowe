@@ -13,4 +13,3 @@ p5js reference : [https://p5js.org/reference/](https://p5js.org/reference/)
 I am using the **IDE** [glitch.com](https://glitch.com) to edit and test code. It can be seen [here](https://the-rowe.glitch.me/index.html) on glitch.com or whats live on github can be seen [here](https://tfoley1.github.io/theRowe/index.html) aswell. 
 
 **Whats on glitch is what you're supposed to see but might have issues with parity between the two.**
-
