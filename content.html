@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css"/>
     
     <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <script src="script.js" defer></script>
     
     <!-- Compiled and minified CSS -->
     <link
@@ -49,14 +49,18 @@
     <div class="containter">
       
       <!-- dropdown bar-->
-      <ul id="dropdown1" class="dropdown-content">
-        <li class="hide-on-med-and-down">
-          <a href="contact.html"
-            >Contact<span class="new badge light-blue darken-2"></span
-          ></a>
+      <ul id="mobileDropdown" class="dropdown-content">
+        <li>
+          <a href="index.html">Home</a>
         </li>
-        <li class="hide-on-med-and-down">
-          <a href="content.html">Content</a>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="music.html">Music</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
         </li>
       </ul>
 
@@ -86,8 +90,8 @@
               ></a>
             </li>
             <li class="show-on-small">
-              <a class="dropdown-trigger" href="#!" data-target="dropdown1">
-                <i class="material-icons right">arrow_drop_down</i></a>
+              <a class="dropdown-trigger" href="#!" data-target="mobileDropdown">
+                <i class="material-icons right">menu</i></a>
             </li>
           </ul>
         </div>
@@ -105,24 +109,22 @@
       <div>
         
         <div class="card">
-
-          <!-- top content --> 
-          <div class="card-content indigo accent-1 center-align">
-            <h5>I make Youtube Videos from time to time. I started in 2017. etc..</h5>
+          <div class="card-content indigo accent-1">
+            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
           </div>
-          <div class="card-tabs">
-            <ul class="tabs tabs-fixed-width indigo accent-1">
-              <li class="tab"><a class="indigo-text darken-4" href="#start">How it started</a></li>
-              <li class="tab"><a class="indigo-text darken-4" href="#went">How it went</a></li>
-              <li class="tab"><a class="indigo-text darken-4" href="#going">How its going</a></li>
+          
+          <div class="card-tabs indigo accent-1">
+            <ul class="tabs transparent tabs-fixed-width">
+              <li class="tab indigo accent-1"><a href="#Start">How it started</a></li>
+              <li class="tab indigo accent-1"><a class="active" href="#test5">How it went</a></li>
+              <li class="tab indigo accent-1"><a href="#test6">How its going</a></li>
             </ul>
           </div>
-
-          <!-- tab content -->
+          
           <div class="card-content indigo lighten-4">
-            <div id="start">lorem ipsus 1</div>
-            <div id="went">lorem ipsus 2</div>
-            <div id="going">lorem ipsus 3</div>
+            <div id="Start">This should be the first</div>
+            <div id="test5">This should be the second</div>
+            <div id="test6">The third</div>
           </div>
           
       </div>
@@ -137,13 +139,71 @@
       </div>
       
       <!-- Embedds here -->
-      <div class="col s12 row">
+      <div class="col s6 row">
+        
+      <div class="video-container center-align responsive-video">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+        
+      <div class="video-container center-align responsive-video">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+        
+      </div>
+      
+      
+      <div class="col s6 row">
+        
+      <div class="video-container center-align responsive-video">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+        
+      <div class="video-container center-align responsive-video">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
         
       </div>
       
       
       
     </div>
+    
+    <br><br><br><br><br><br><br><br>
+    <footer class="page-footer indigo lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">The Rowe</h5>
+            <p class="grey-text text-lighten-4">
+              Very new, exciting place. Not filled with super interesting things
+              yet... but one day it will house some pretty cool things
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Email</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+
+              <!-- use these another day? not needed now
+
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+
+                  -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright indigo darken-1">
+        <div class="container">
+          Steven Foley 2022
+          <a class="grey-text text-lighten-4 right" href="links.html"
+            >More Links</a
+          >
+        </div>
+      </div>
+    </footer>
     
   </body>
 </html>
