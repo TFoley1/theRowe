@@ -4,10 +4,14 @@ body {
   color : #111111;
 }
 
+iframe {
+  width: 500px;
+}
+
 img {
   border: solid #e8eaf6;
   border-radius: 10px;
-  max-width: 300px;
+  max-width:500px;
   margin-top:8px;
   margin-bottom:8px;
 }
@@ -19,6 +23,7 @@ li {
 nav {
   width: max;
   margin: none;
+  margin-bottom: 20px;
 }
 
 #logo {
@@ -48,6 +53,17 @@ nav {
   margin-right: 15px;
 }
 
+#p3 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.centerImages {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .tab {
   font-family: Overpass, Arial, Helvetica, sans-serif;
   color : #111111;
@@ -61,10 +77,30 @@ nav {
 .sortOfCards {
   border: solid #e8eaf6;
   border-radius: 10px;
-}
-
-.myRowes {
   margin-top: 36px;
   margin-bottom: 36px;
 }
 
+.myRowes {
+  color : #111111;
+}
+
+.card-tabs, .tab{
+  font-family: Overpass, Arial, Helvetica, sans-serif;
+  color : #111111;
+}
+
+/* colors for tabs*/
+.tabs .tab a{
+  font-family: Overpass, Arial, Helvetica, sans-serif;
+  color : #111111;
+  } 
+
+.tabs .tab a:hover {
+  color : #111111;
+}
+
+/*Color of underline*/
+.tabs .indicator {
+  background-color:#8c9eff;
+} 
