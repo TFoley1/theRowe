@@ -22,3 +22,10 @@
 - NOTHING :D
 
 
+
+---
+
+# TO ADD FOR FUN 🛠
+
+- Dark mode toggle, changes entire color scheme for site, saves  preference in local storage
+
