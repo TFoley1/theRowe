@@ -14,6 +14,7 @@
   - Music page? ✓
   
 - Add proper non-placeholder pictures
+- Official Logos
 
 ---
 
