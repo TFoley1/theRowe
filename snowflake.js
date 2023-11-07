@@ -76,8 +76,8 @@ function mainText(userTextInput) {
 }
 
 function preload() {
-  snowflakePic = loadImage("https://cdn.glitch.com/8eb942a8-1a89-42f0-b58d-4ee257e93083%2Fpixel_snowflake.png?v=1607957535611")
-  snowyBg = loadImage("https://cdn.glitch.com/8eb942a8-1a89-42f0-b58d-4ee257e93083%2FsnowyBg.png?v=1607958710582");
+  snowflakePic = loadImage("images/pixelSnowflake")
+  snowyBg = loadImage("images/snowyBG");
 }
 
 function setup(){ // only when game loads
