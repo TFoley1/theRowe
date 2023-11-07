@@ -77,7 +77,7 @@ function mainText(userTextInput) {
 
 function preload() {
   snowflakePic = loadImage("images/pixelSnowflake")
-  snowyBg = loadImage("images/snowyBG");
+  snowyBg = loadImage("images/snowyBg");
 }
 
 function setup(){ // only when game loads
